@@ -1,0 +1,11 @@
+@import "styles/social.css";
+@import "styles/title.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    color: #d6d8ef;
+    background: #16191e;
+}

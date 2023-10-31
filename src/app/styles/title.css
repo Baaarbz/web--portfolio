@@ -1,0 +1,13 @@
+.fullname {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.job {
+    font-size: 1.75em;
+    font-weight: 500;
+}
+
+.silenced-text {
+    font-size: 0.75em;
+}

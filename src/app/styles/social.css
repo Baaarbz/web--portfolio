@@ -1,0 +1,66 @@
+.social-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.2em;
+}
+
+.social-btn {
+    width: 37px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.social-icon-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.social-icon-bg {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 10px;
+    pointer-events: none;
+    transition: all .3s;
+}
+
+.github-icon {
+    background: #181818;
+}
+
+.linkedin-icon {
+    background: #0077B5;
+}
+
+.mail-icon {
+    background: #e74818;
+}
+
+.social-btn:hover .social-icon-bg {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+}
+
+.social-btn:hover .social-icon-container {
+    background-color: rgba(156, 156, 156, 0.466);
+    backdrop-filter: blur(4px);
+}
