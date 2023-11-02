@@ -30,7 +30,7 @@ export default function AboutMe() {
                    href="https://www.kleinanzeigen.de/" target="_blank" rel="noreferrer">
                     &ensp;Kleinanzeigen
                 </a>
-                and other marketplaces inside the company),
+                &ensp;and other marketplaces inside the company),
                 <a className="font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
                    href="https://adidas.com/" target="_blank" rel="noreferrer">
                     &ensp;adidas
