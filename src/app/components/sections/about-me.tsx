@@ -42,7 +42,7 @@ export default function AboutMe() {
             </p>
             <p>
                 When I&apos;m not at the computer, I’m usually practicing some sport like rock climbing, hiking, karting
-                or hanging out with my friends enjoying some typical spanish "tapas".
+                or hanging out with my friends enjoying some typical spanish &quot;tapas&quot;.
             </p>
         </div>
     )
