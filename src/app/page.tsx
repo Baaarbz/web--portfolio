@@ -2,6 +2,7 @@
 
 import Social from "@/app/components/social";
 import Title from "@/app/components/title";
+import AboutMe from "@/app/components/sections/about-me";
 
 export default function Home() {
     return (
@@ -15,6 +16,15 @@ export default function Home() {
                     <Title/>
                     <Social/>
                 </header>
+                <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
+                    <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+                             aria-label="About me">
+                        <div>
+                            <h2 className="mb-2 text-sm font-bold uppercase tracking-widest text-slate-200">About me</h2>
+                        </div>
+                        <AboutMe/>
+                    </section>
+                </main>
             </div>
         </div>
         </body>
