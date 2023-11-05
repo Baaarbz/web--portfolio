@@ -56,7 +56,6 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           port: ${{ secrets.SERVER_PORT }}
           script: |
-            docker stop portfolio-web
             docker rmi baaarbz/portfolio-web
             docker pull baaarbz/portfolio-web:latest
             docker run -d --rm -p 3000:3000 --name portfolio-web baaarbz/portfolio-web:latest
