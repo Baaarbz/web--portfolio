@@ -58,5 +58,6 @@ jobs:
           script: |
             docker stop portfolio-web
             docker rmi baaarbz/portfolio-web
+            docker rm portfolio-api
             docker pull baaarbz/portfolio-web:latest
             docker run -d -p 3000:3000 --restart always --name portfolio-web baaarbz/portfolio-web:latest
