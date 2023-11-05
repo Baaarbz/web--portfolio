@@ -58,4 +58,4 @@ jobs:
           script: |
             docker rmi baaarbz/portfolio-web
             docker pull baaarbz/portfolio-web:latest
-            docker run -d --rm -p 8000:8000 --name portfolio-web baaarbz/portfolio-web:latest
+            docker run -d --rm -p 3000:3000 --name portfolio-web baaarbz/portfolio-web:latest
