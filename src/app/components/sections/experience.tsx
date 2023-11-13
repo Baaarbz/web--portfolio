@@ -1,12 +1,13 @@
 import React from "react";
 import axios from "axios";
+import Job from "@/app/domain/job";
 
 const client = axios.create({
     baseURL: "https://barbzdev.com"
 });
 
 export default function Experience() {
-    const [jobs, setData] = React.useState([]);
+    const [jobs, setData] = React.useState<Job[]>([]);
 
     React.useEffect(() => {
         async function fetchJobs() {
@@ -102,7 +103,7 @@ export default function Experience() {
             </ol>
             <div className="mt-12">
                 <a
-                    className="inline-flex items-center font-medium leading-tight text-slate-200 font-semibold text-slate-200 group"
+                    className="inline-flex items-center font-medium leading-tight text-slate-200 group"
                     aria-label="View Full Résumé" href="/resume.pdf">
                     <span>
                         <span
