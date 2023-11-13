@@ -3,6 +3,7 @@
 import Social from "@/app/components/social";
 import Title from "@/app/components/title";
 import AboutMe from "@/app/components/sections/about-me";
+import Experience from "@/app/components/sections/experience";
 
 export default function Home() {
     return (
@@ -31,6 +32,7 @@ export default function Home() {
                                 <div>
                                     <h2 className="my-8 text-sm font-bold uppercase tracking-widest text-slate-200">Experience</h2>
                                 </div>
+                                <Experience/>
                             </section>
                         </div>
 
