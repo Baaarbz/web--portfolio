@@ -11,13 +11,11 @@ export default function Home() {
             className="bg-grey-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
             <div
                 className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-20 lg:py-0">
-                <div className="lg:flex lg:justify-between lg:gap-16">
-                    <header
-                        className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+                    <header className="lg:pt-24">
                         <Title/>
                         <Social/>
                     </header>
-                    <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
+                    <main id="content" className="pt-24 lg:py-24">
                         <div className="divide-y divide-solid divide-teal-300/[.30]">
                             <section id="about" className="mb-16 scroll-mt-16 lg:scroll-mt-24"
                                      aria-label="About me">
@@ -38,7 +36,6 @@ export default function Home() {
 
                     </main>
                 </div>
-            </div>
         </div>
     )
 }
