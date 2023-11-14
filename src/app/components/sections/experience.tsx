@@ -54,10 +54,9 @@ export default function Experience() {
                                 </h3>
                                 <ul>
                                     {job.jobData.positions.map((position, index) => (
-                                        <li key={index}>
-                                            <div>
-                                                <div className="text-slate-500 font-medium"
-                                                     aria-hidden="true">{position.position}</div>
+                                        <li className={index != 0 ? "mt-3" : ""} key={index}>
+                                            <div className="text-slate-500 font-medium" aria-hidden="true">
+                                                {position.position}
                                             </div>
                                             <p className="mt-2 text-sm leading-normal">{position.description}</p>
                                         </li>
