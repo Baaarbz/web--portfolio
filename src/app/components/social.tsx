@@ -14,7 +14,7 @@ export default function Social() {
     }
 
     return (
-        <div className="social-container">
+        <div className="social-container mt-5">
             <button className="social-btn" onClick={openGithubProfile}>
             <span className="social-icon-container">
             <Github/>
